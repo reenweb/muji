@@ -184,7 +184,7 @@ ul.snb{
     background: #7F0019;
 }
 .snb > li > ul > li > a:hover::before{
-    width: 40%;
+    width: 100%;
 }
 nav > ul > li ul.snb.on{ display: flex; }
 .snb > li > ul{
@@ -501,7 +501,7 @@ footer .inner{
     }
     nav > ul > li.nav2{
         background-color: #fff;
-        padding-left: 40px;
+        padding: 0 40px;
     }
     nav > ul > li  a{
         justify-content: flex-start;
