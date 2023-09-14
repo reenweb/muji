@@ -20,7 +20,6 @@ var slide = new Swiper(".slide", {
 
 //5장뷰슬라이드
 var bestitem = new Swiper(".bestitem", {
-
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -29,10 +28,20 @@ var bestitem = new Swiper(".bestitem", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    slidesPerView: 5,
-    spaceBetween: 22,
+    slidesPerView: 3,
+    spaceBetween: 15,
     observer: true,
-    loop: true
+    loop: true,
+    breakpoints: {
+      391: {
+        slidesPerView: 4,
+        spaceBetween: 22,
+      } ,   
+      960: {
+        slidesPerView: 5,
+        spaceBetween: 22,
+      }    
+    }
 });
 var clothes = new Swiper(".clothes", {
 
@@ -88,12 +97,18 @@ var newitem = new Swiper(".newitem", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    slidesPerView: 4,
-    spaceBetween: 22,
+    slidesPerView: 3,
+    spaceBetween: 15,
     loop: true,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
+    },
+    breakpoints: {
+    635: {
+        slidesPerView: 4,
+        spaceBetween: 22,
+      }
     }
 });
 

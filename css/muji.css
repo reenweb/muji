@@ -613,3 +613,46 @@ footer .inner{
         height: 170px;
     }
 }
+@media screen and (max-width: 390px){
+    :root{
+        --swiper-navigation-size: 30px;
+    }
+    h1{
+        font-size: 21px;
+    }
+    span{
+        font-size: 14px;
+    }
+    header .inner > div > a{
+        display: flex;
+        align-items: center;
+    }
+    header .inner > div img{
+        height: 30px;
+    }
+    .inner > div{
+        height: 30px;
+    }
+    .inner > div > i{
+        background-size: 30px;
+    }
+    .icons a{
+        width: 30px;
+    }
+    .left li{
+        height: 30px;
+    }
+    .right div > a > span{
+        font-size: 13px;
+        height: 32px;
+    }
+    .right div > a > .best01, .best02, .best03{
+        background-size: 33px;
+    }
+    .newitem > div > a, .newitem > div > a img{
+        height: 130px;
+    }
+    .contents02 .newitem{
+        height: 170px;
+    }
+}
