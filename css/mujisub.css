@@ -410,8 +410,18 @@ footer .inner {
         background-image: url(/muji/img/무인양품/icons/menu.svg);
         cursor: pointer;
     }
+    header .inner > div img{
+        height: 30px;
+    }
+    header .inner > div > a{
+        display: flex;
+        align-items: center;
+    }
     .icons > div, .icon5 {
         display: none;
+    }
+    .icons a{
+        width: 30px;
     }
     main {
         padding: 0px 15px 80px 15px;

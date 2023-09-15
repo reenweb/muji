@@ -31,10 +31,16 @@ span{
     color: #000;
     font-weight: 800;
 }
-a{
+.logo{
+    display: flex;
+    align-items: center;
     font-size: 15px;
     color: #000;
 }
+a{
+    color: #000;
+}
+
 /* 해더 */
 header .inner{
     display: flex;
@@ -478,7 +484,9 @@ footer .inner{
     .icons > div, .icon5{
         display: none;
     }
-    
+    .icons a{
+        width: 30px;
+    }
     /* 햄버거 버튼, 1차메뉴 출력 */
     nav > ul{
         display: none;
@@ -612,6 +620,11 @@ footer .inner{
     .contents03 img{
         height: 170px;
     }
+
+    header .inner > div img{
+        height: 30px;
+        vertical-align: bottom;
+    }
 }
 @media screen and (max-width: 390px){
     :root{
@@ -635,9 +648,6 @@ footer .inner{
     }
     .inner > div > i{
         background-size: 30px;
-    }
-    .icons a{
-        width: 30px;
     }
     .left li{
         height: 30px;

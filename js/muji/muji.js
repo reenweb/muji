@@ -32,12 +32,8 @@ var bestitem = new Swiper(".bestitem", {
     spaceBetween: 15,
     observer: true,
     loop: true,
-    breakpoints: {
-      391: {
-        slidesPerView: 4,
-        spaceBetween: 22,
-      } ,   
-      960: {
+    breakpoints: {  
+      640: {
         slidesPerView: 5,
         spaceBetween: 22,
       }    
@@ -92,10 +88,6 @@ var newitem = new Swiper(".newitem", {
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
     },
     slidesPerView: 3,
     spaceBetween: 15,

@@ -9,9 +9,15 @@ var clothesbest = new Swiper(".clothesbest", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    slidesPerView: 5,
+    slidesPerView: 3,
     spaceBetween: 21,
-    loop: true
+    loop: true,
+    breakpoints: {
+        640: {
+          slidesPerView: 5,
+          spaceBetween: 22,
+        } 
+    }
 });
 
 //nav닫을 때
