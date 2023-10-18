@@ -49,9 +49,16 @@ var clothes = new Swiper(".clothes", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    slidesPerView: 5,
-    spaceBetween: 22,
-
+    slidesPerView: 3,
+    spaceBetween: 15,
+    observer: true,
+    loop: true,
+    breakpoints: {  
+      640: {
+        slidesPerView: 5,
+        spaceBetween: 22,
+      }    
+    }
 });
 var dailyitem = new Swiper(".dailyitem", {
 
@@ -63,9 +70,16 @@ var dailyitem = new Swiper(".dailyitem", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    slidesPerView: 5,
-    spaceBetween: 22,
-
+    slidesPerView: 3,
+    spaceBetween: 15,
+    observer: true,
+    loop: true,
+    breakpoints: {  
+      640: {
+        slidesPerView: 5,
+        spaceBetween: 22,
+      }    
+    }
 });
 var foods = new Swiper(".foods", {
 
@@ -77,9 +91,16 @@ var foods = new Swiper(".foods", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-    slidesPerView: 5,
-    spaceBetween: 22,
-
+    slidesPerView: 3,
+    spaceBetween: 15,
+    observer: true,
+    loop: true,
+    breakpoints: {  
+      640: {
+        slidesPerView: 5,
+        spaceBetween: 22,
+      }    
+    }
 });
 
 // 4장뷰
